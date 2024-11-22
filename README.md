@@ -11,10 +11,8 @@ Langkah pertama adalah mengunjungi aplikasi web yang diberikan. Saya memulai den
 Halaman utama aplikasi web tidak menampilkan apa pun yang mencurigakan, tetapi ketika melihat sumber halaman, saya menemukan sebuah parameter URL yang mencurigakan:
 
 # Decoding-the-Web-Challenge
-http://example.com/decode?data=U29tZSBkYXRhIHRoYXQgaXMgdGVzdC4=
+(https://play.picoctf.org/practice?category=1&difficulty=1&page=1)
 
-
-Parameter `data` tampaknya berisi data yang terkodekan. Saya menduga ini adalah format **Base64**.
 
 ### 2. **Mendekode Base64**
 Setelah melihat bahwa data yang diberikan terlihat seperti string Base64, saya mencoba untuk mendekodekan string tersebut menggunakan perintah `base64` di terminal.
